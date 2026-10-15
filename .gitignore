@@ -1,0 +1,28 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# build
+dist
+.next
+.turbo
+out
+build
+
+# env
+.env
+.env*.local
+
+# prisma
+apps/api/prisma/*.db
+apps/api/prisma/*.db-journal
+apps/api/generated
+apps/api/src/generated
+
+
+
+# misc
+.DS_Store
+*.log
+*.tsbuildinfo
+coverage
